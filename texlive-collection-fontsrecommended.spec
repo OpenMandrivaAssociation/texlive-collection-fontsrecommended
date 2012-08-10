@@ -1,4 +1,4 @@
-# revision 22193
+# revision 26699
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-fontsrecommended
 Epoch:		1
-Version:	20120224
+Version:	20120810
 Release:	1
 Summary:	Recommended fonts
 Group:		Publishing
@@ -36,6 +36,7 @@ Requires:	texlive-pxfonts
 Requires:	texlive-rsfs
 Requires:	texlive-symbol
 Requires:	texlive-tex-gyre
+Requires:	texlive-tex-gyre-math
 Requires:	texlive-times
 Requires:	texlive-tipa
 Requires:	texlive-txfonts

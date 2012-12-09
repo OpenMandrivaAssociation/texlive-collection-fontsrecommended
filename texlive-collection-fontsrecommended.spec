@@ -64,3 +64,16 @@ Computer Modern, in outline form.
 %build
 
 %install
+
+
+%changelog
+* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120810-1
++ Revision: 813904
+- Update to latest release.
+
+* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
++ Revision: 780281
+- Update to latest release.
+- Import texlive-collection-fontsrecommended
+- Import texlive-collection-fontsrecommended
+

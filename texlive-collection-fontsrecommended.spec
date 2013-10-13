@@ -1,4 +1,4 @@
-# revision 26699
+# revision 30307
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-fontsrecommended
 Epoch:		1
-Version:	20120810
+Version:	20131013
 Release:	1
 Summary:	Recommended fonts
 Group:		Publishing
@@ -16,6 +16,7 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-fontsr
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
+Requires:	texlive-collection-basic
 Requires:	texlive-avantgar
 Requires:	texlive-bookman
 Requires:	texlive-charter
@@ -28,6 +29,7 @@ Requires:	texlive-eurosym
 Requires:	texlive-fpl
 Requires:	texlive-helvetic
 Requires:	texlive-lm
+Requires:	texlive-lm-math
 Requires:	texlive-marvosym
 Requires:	texlive-mathpazo
 Requires:	texlive-ncntrsbk
@@ -45,7 +47,6 @@ Requires:	texlive-wasy
 Requires:	texlive-wasysym
 Requires:	texlive-zapfchan
 Requires:	texlive-zapfding
-Requires:	texlive-collection-basic
 %rename texlive-fonts
 %rename texlive-texmf-fonts
 
@@ -64,16 +65,3 @@ Computer Modern, in outline form.
 %build
 
 %install
-
-
-%changelog
-* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120810-1
-+ Revision: 813904
-- Update to latest release.
-
-* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
-+ Revision: 780281
-- Update to latest release.
-- Import texlive-collection-fontsrecommended
-- Import texlive-collection-fontsrecommended
-

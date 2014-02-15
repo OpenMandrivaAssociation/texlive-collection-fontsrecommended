@@ -1,4 +1,4 @@
-# revision 30307
+# revision 32620
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-fontsrecommended
 Epoch:		1
-Version:	20131013
-Release:	5
+Version:	20140215
+Release:	1
 Summary:	Recommended fonts
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -23,6 +23,7 @@ Requires:	texlive-charter
 Requires:	texlive-cm-super
 Requires:	texlive-cmextra
 Requires:	texlive-courier
+Requires:	texlive-ec
 Requires:	texlive-euro
 Requires:	texlive-euro-ce
 Requires:	texlive-eurosym

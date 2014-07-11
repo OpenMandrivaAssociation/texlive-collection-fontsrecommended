@@ -7,7 +7,7 @@
 Name:		texlive-collection-fontsrecommended
 Epoch:		1
 Version:	20140215
-Release:	2
+Release:	3
 Summary:	Recommended fonts
 Group:		Publishing
 URL:		http://tug.org/texlive

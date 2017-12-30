@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-fontsrecommended
 Epoch:		1
-Version:	20140215
-Release:	5
+Version:	20170414
+Release:	1
 Summary:	Recommended fonts
 Group:		Publishing
 URL:		http://tug.org/texlive

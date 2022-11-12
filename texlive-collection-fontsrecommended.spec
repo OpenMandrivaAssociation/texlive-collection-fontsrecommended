@@ -1,18 +1,12 @@
-# revision 32620
-# category Collection
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-collection-fontsrecommended
 Epoch:		1
-Version:	20190228
+Version:	54074
 Release:	1
 Summary:	Recommended fonts
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-fontsrecommended.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-fontsrecommended.r54074.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -61,7 +55,7 @@ Computer Modern, in outline form.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0
+%autosetup -p1 -c
 
 %build
 
